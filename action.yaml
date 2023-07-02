@@ -1,0 +1,11 @@
+# action.yml
+name: 'loglint-action'
+description: 'Lint some logs'
+inputs:
+  repo_token:
+    description: 'Repo token'
+    required: false
+    default: ${{ github.token }}
+runs:
+  using: 'docker'
+  image: 'docker://scottg489/loglint-action'
