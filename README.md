@@ -1,4 +1,6 @@
 # loglint-action
+[![ci](https://github.com/ScottG489/loglint-action/actions/workflows/ci.yaml/badge.svg)](https://github.com/ScottG489/loglint-action/actions/workflows/ci.yaml)
+
 This action runs [`loglint`](https://github.com/ScottG489/loglint) on logs generated from a workflow.
 
 ## Usage
