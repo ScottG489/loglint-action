@@ -8,4 +8,4 @@ inputs:
     default: ${{ github.token }}
 runs:
   using: 'docker'
-  image: 'docker://scottg489/loglint-action'
+  image: 'docker://scottg489/loglint-action@sha256:4e845b4ebf257319671c4eb95cd2c3047112eedf966eed5028d7475c29227fa2'
